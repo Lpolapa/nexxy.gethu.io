@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="assets/icon/love.png">
+    
+    <title>For You</title>
+    <style>
+        
+        .card {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 500px;
+            background-color: #f8d7da;
+            transform-style: preserve-3d;
+            transform: translate(-50%, -50%) perspective(2000px);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .card h1 {
+            font-size: 24px;
+            color: #721c24;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            color: #721c24;
+            margin-bottom: 20px;
+        }
+
+        .card p {
+            font-size: 18px;
+            color: #721c24;
+            margin-bottom: 15px;
+        }
+
+        .card button {
+            background-color: #721c24;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .card button:hover {
+            background-color: #5f191f;
+        }
+        
+        @media screen and (max-width: 400px) {
+        .container {
+            flex-direction: column;  
+            }
+        .container div {
+            font-size: 2rem;
+        }
+        }
+
+        @media screen and (min-width: 401px) and (max-width: 748px) {
+        .container div{
+            font-size: 4rem;
+        }
+        }
+        @media screen and (min-width: 749px) and (max-width: 1200px) {
+        .container div{
+            font-size: 4rem;
+        }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Bday Raa!</h1>
+        <p>Hai Sri Rahmawati Laingo (Raa)</p>
+        <p>Just want to say Hppy Bday to u</p>
+        <p>it's been so long time since we lost contac</p>
+        <p>stay healty, don't cutting ur hands again okey?</p>
+        <p>u always look beautyfull</p>
+        <h2>CIE SO DI UNG</h2>
+        <button onclick="alert('HAPPY BIRTHDAY MY BELOVED EX')">Tekan</button>
+    </div>
+</body>
+</html>
